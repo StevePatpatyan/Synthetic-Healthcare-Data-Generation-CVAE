@@ -22,3 +22,8 @@ cvae_outputs/ - contains scalers and weights for models for quick reloading
 
 
 *I have tried including detailed comments for good comprehension of the notebooks as you go through them.*
+
+Data and Legal Limitations
+•	The model is trained on MIMIC-III, which is credentialed data. The trained weights cannot be openly distributed, limiting the system’s shareability.
+•	The system generates de-identified synthetic data but has not been formally evaluated for re-identification risk or clinical safety.
+
